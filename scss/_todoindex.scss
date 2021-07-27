@@ -1,0 +1,83 @@
+@import "variables";
+/*Diseño Titulo Principal*/
+#titulo__principal--diseño{color: $textoprincipal;
+    background-color:$degradadoletras;
+    font-weight: bolder;
+	font-size: 30px;
+	text-align: center;
+    letter-spacing: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+/*Boody*/
+
+
+
+.segparte{margin-left: 6cm;}
+
+
+
+
+.header{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.header .navbar {
+    background-color: transparent!important;
+    
+  }
+  
+main h5{font-size: 40px;}
+
+.carousel-item-active img {
+    height: $hyw300;
+    width: $hyw300;
+    display:block;
+    margin:auto;
+}
+
+.carousel-item img {
+    display:block;
+    margin:auto;
+    height: $hyw500;
+    width: $hyw500;
+}
+
+
+.carousel-item-active{margin-top: 40px;}
+
+.btn-group{
+    margin-top: 50px;
+    height: 40px;}
+
+.menuPrincipal{
+    
+    font-size: 25px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color: black;
+    margin-top: 50px;
+  
+    
+}
+
+.menuPrincipal li {  
+    display:inline;
+    padding: 3px;
+    background-color:$degradadoletras;
+   border: ridge 1px #FEC89A;
+}
+
+
+.menuPrincipal ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.primparteX{margin-right: 8cm;}
+.segparteX{margin-right: 11cm;}

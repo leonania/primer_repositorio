@@ -1,0 +1,64 @@
+@import "variables";
+/*Seccion Salado*/
+
+.bodySalado{
+    background-color: #FEC89A;
+}
+
+.saladoh1{
+    color: $textoprincipal;
+    background-color:$degradadoletras;
+    text-align: center;
+    font-size: 25px;
+}
+.bodySalado h2{
+    font-size: 18px;
+}
+.bodySalado h3{
+    font-size: 15px;
+}
+
+
+.diseñoSalado{
+    text-align: center;
+    color:black;
+
+}
+.diseñoSalado2{
+    text-align: center;
+color:black;
+margin-bottom: 50px;
+
+}
+
+
+.diseñoPlatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.distanciaplatos{margin-top: 40px;}
+
+
+
+.diseñoPlatos p{
+    font-size: 10px;
+}
+
+.diseñoPlatos img{
+    width: 150px; height: 150px;
+    
+}
+.diseñoPlatos article{border:solid 1px black;
+text-align: center;
+padding: 5px;
+width: 220px;
+height: 250px;
+}
+
+
+/*Fin Seccion Salado*/

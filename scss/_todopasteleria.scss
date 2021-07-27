@@ -1,0 +1,69 @@
+@import "variables";
+@import "todoindex";
+
+/*Seccion PASTELERIA*/
+
+.bodyPasteleria{
+    background-color: $colorprincipal;
+}
+.comidaPasteleria{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.comidaPasteleria2{
+    @extend .comidaPasteleria;
+    margin-top: 40px;
+}
+
+.comidaPasteleria img{
+ width: 150px;
+ height: 150px;
+}
+
+
+
+.pasteleria1{
+    color: $textoprincipal;
+    background-color:$degradadoletras;
+    text-align: center;
+    font-size: 25px; ;}
+
+.diseñoPasteleria{display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;}
+
+.diseñoPasteleria li{
+    list-style-type: none;
+
+}
+
+.diseñoPasteleria li img{
+    width: 150px; height: 150px;
+}
+.textoPasteleria{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+
+}
+
+.textoPasteleria2{
+    text-align: center;
+    color:black;
+    font-size: 13px;
+}
+.comidaPasteleria p{font-size: 10px;}
+
+
+
+.card{text-align: center;
+    display:block;
+    background-color: $degradadoletras!important;
+}
+
+
+/*FIN Seccion PASTELERIA*/

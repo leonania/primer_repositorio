@@ -1,0 +1,35 @@
+@import "variables";
+/*Diseño Footer*/
+
+.footer__info{color: yellow;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center ;
+    font-family: 'Jomhuria';
+    margin-top: 50px;
+}
+
+
+.footer__info li{
+    display: inline;
+    padding: 1px;
+    color: $textoprincipal;
+    background-color:$degradadoletras;
+
+}
+
+
+.footer__info ul li{
+
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+.footer__info ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+/*Fin Diseño Footer*/

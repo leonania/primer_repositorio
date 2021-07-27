@@ -1,0 +1,87 @@
+@import "variables";
+/* MEDIAS QUERIES */
+
+/* Vista Celular */
+
+@media only screen and (min-width: 0px) and (max-width: 600px){
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .menuPrincipal ul{
+        font-size: small;
+        margin-left: 40px;
+        margin-top: 10px;
+        justify-content: center;
+        display: flex;
+    }
+    
+    
+    .imgChango2{
+        visibility: hidden;
+        display:none;}
+
+
+    .imgPrincipal{
+        visibility: hidden;
+        display:none;}
+   
+    .menuPrincipal{font-size: small;}
+    
+    #titulo__principal--diseño{
+        font-size: medium;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .footer__info{
+        margin-top: 20px;
+    }
+
+    main h5{font-size: 5px;}
+
+
+
+}
+
+
+
+
+
+/* VISTA TABLET */
+@media only screen and (min-width: 601px) and (max-width: 768px){
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #titulo__principal--diseño{
+        font-size: larger;
+        margin-bottom: 15px;
+    }
+    .menuPrincipal{
+        margin-top: 15px ;
+        font-size: large;
+    }
+
+
+    .imgChango2{
+        justify-self: center;
+        width: 50px;
+        height: 50px;
+       
+    }
+
+    .imgPrincipal {
+        width: 50px;
+        height: 50px;
+        justify-self: center;
+
+    }
+    .imgMain{
+        margin-bottom: 10px;
+    }
+}

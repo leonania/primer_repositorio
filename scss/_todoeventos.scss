@@ -1,0 +1,38 @@
+@import "variables";
+/*Seccion EVENTOS*/
+
+
+.bodyEventos{
+    background-color:#FEC89A ;
+}
+
+.eventosPrinc{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+}
+.eventosPrinc img{
+    width: 180px; height: 70px;
+}
+
+
+
+.diseñoEventosTitulo{
+    text-align: center;
+    color: $textoprincipal;
+    background-color:$degradadoletras;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.eventosPrinc p{
+    font-size: 12px;
+}
+
+
+
+
+/*Fin Seccion EVENTOS*/

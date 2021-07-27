@@ -1,0 +1,58 @@
+@import "variables";
+@import "todoindex";
+@import "todopdv";
+@import "todocontacto";
+@import "todopasteleria";
+@import "todosalado";
+@import "todoeventos";
+@import "todofooter";
+@import "imagenes";
+@import "mediasqueries";
+
+
+
+
+// GENERALES//
+*{
+    margin:0;
+    padding:0;
+   }
+body {
+   width: auto;
+   height: auto;
+   background-color: #FEC89A;
+}
+
+body a{
+   text-decoration: none;
+   color: black;
+   text-align: center;
+   list-style-type: none;
+}
+
+
+//ESTO ES PARA NAVEGAR ENTRE PAGINAS 1 2 3
+.container{
+   display:flex;
+   margin-top: 25px;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

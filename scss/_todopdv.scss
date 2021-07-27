@@ -1,0 +1,47 @@
+@import "variables";
+
+/*Tablas de plan de viandas*/
+.pdv{
+    background-color:#FEC89A;
+}
+.pdv article{border:solid 1px black;
+    text-align: center;
+    padding: 4px;
+    width: 250px;
+    height: 260px;
+    font-size: small;
+
+}
+
+.prueba1{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+.prueba1 img{
+    width: 150px;
+    height: 150px;}
+
+
+.prueba1 p {
+    font-size: 10px;
+}
+
+#planDeViandas {
+    text-align: center;
+    color: $textoprincipal;
+    background-color:$degradadoletras;
+    font-size: 25px;
+    margin-top: 10px;
+  
+
+    margin-bottom: 50px;
+    
+}
+
+
+
+/*Fin tablas de plan de viandas*/

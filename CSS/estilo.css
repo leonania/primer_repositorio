@@ -1,0 +1,443 @@
+@charset "UTF-8";
+/*Diseño Titulo Principal*/
+#titulo__principal--diseño {
+  color: #7E7F9A;
+  background-color: #FFD7BA;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 7px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 30px;
+  margin-top: 20px; }
+
+/*Boody*/
+.segparte {
+  margin-left: 6cm; }
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.header .navbar {
+  background-color: transparent !important; }
+
+main h5 {
+  font-size: 40px; }
+
+.carousel-item-active img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: auto; }
+
+.carousel-item img {
+  display: block;
+  margin: auto;
+  height: 500px;
+  width: 500px; }
+
+.carousel-item-active {
+  margin-top: 40px; }
+
+.btn-group {
+  margin-top: 50px;
+  height: 40px; }
+
+.menuPrincipal {
+  font-size: 25px;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  color: black;
+  margin-top: 50px; }
+
+.menuPrincipal li {
+  display: inline;
+  padding: 3px;
+  background-color: #FFD7BA;
+  border: ridge 1px #FEC89A; }
+
+.menuPrincipal ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black; }
+
+.primparteX {
+  margin-right: 8cm; }
+
+.segparteX {
+  margin-right: 11cm; }
+
+/*Tablas de plan de viandas*/
+.pdv {
+  background-color: #FEC89A; }
+
+.pdv article {
+  border: solid 1px black;
+  text-align: center;
+  padding: 4px;
+  width: 250px;
+  height: 260px;
+  font-size: small; }
+
+.prueba1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.prueba1 img {
+  width: 150px;
+  height: 150px; }
+
+.prueba1 p {
+  font-size: 10px; }
+
+#planDeViandas {
+  text-align: center;
+  color: #7E7F9A;
+  background-color: #FFD7BA;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 50px; }
+
+/*Fin tablas de plan de viandas*/
+/*Seccion Contacto*/
+.solapaContacto {
+  color: black;
+  text-align: center;
+  background-color: #FEC89A; }
+
+.solapaContacto ul li a {
+  text-decoration: none;
+  list-style: none; }
+
+/*Fin Seccion Contacto*/
+/*Diseño Titulo Principal*/
+#titulo__principal--diseño {
+  color: #7E7F9A;
+  background-color: #FFD7BA;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 7px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 30px;
+  margin-top: 20px; }
+
+/*Boody*/
+.segparte {
+  margin-left: 6cm; }
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.header .navbar {
+  background-color: transparent !important; }
+
+main h5 {
+  font-size: 40px; }
+
+.carousel-item-active img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: auto; }
+
+.carousel-item img {
+  display: block;
+  margin: auto;
+  height: 500px;
+  width: 500px; }
+
+.carousel-item-active {
+  margin-top: 40px; }
+
+.btn-group {
+  margin-top: 50px;
+  height: 40px; }
+
+.menuPrincipal {
+  font-size: 25px;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  color: black;
+  margin-top: 50px; }
+
+.menuPrincipal li {
+  display: inline;
+  padding: 3px;
+  background-color: #FFD7BA;
+  border: ridge 1px #FEC89A; }
+
+.menuPrincipal ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black; }
+
+.primparteX {
+  margin-right: 8cm; }
+
+.segparteX {
+  margin-right: 11cm; }
+
+/*Seccion PASTELERIA*/
+.bodyPasteleria {
+  background-color: #FEC89A; }
+
+.comidaPasteleria, .comidaPasteleria2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 10px;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.comidaPasteleria2 {
+  margin-top: 40px; }
+
+.comidaPasteleria img, .comidaPasteleria2 img {
+  width: 150px;
+  height: 150px; }
+
+.pasteleria1 {
+  color: #7E7F9A;
+  background-color: #FFD7BA;
+  text-align: center;
+  font-size: 25px; }
+
+.diseñoPasteleria {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.diseñoPasteleria li {
+  list-style-type: none; }
+
+.diseñoPasteleria li img {
+  width: 150px;
+  height: 150px; }
+
+.textoPasteleria {
+  text-align: center;
+  color: black;
+  font-size: 15px; }
+
+.textoPasteleria2 {
+  text-align: center;
+  color: black;
+  font-size: 13px; }
+
+.comidaPasteleria p, .comidaPasteleria2 p {
+  font-size: 10px; }
+
+.card {
+  text-align: center;
+  display: block;
+  background-color: #FFD7BA !important; }
+
+/*FIN Seccion PASTELERIA*/
+/*Seccion Salado*/
+.bodySalado {
+  background-color: #FEC89A; }
+
+.saladoh1 {
+  color: #7E7F9A;
+  background-color: #FFD7BA;
+  text-align: center;
+  font-size: 25px; }
+
+.bodySalado h2 {
+  font-size: 18px; }
+
+.bodySalado h3 {
+  font-size: 15px; }
+
+.diseñoSalado {
+  text-align: center;
+  color: black; }
+
+.diseñoSalado2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 50px; }
+
+.diseñoPlatos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 10px;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.distanciaplatos {
+  margin-top: 40px; }
+
+.diseñoPlatos p {
+  font-size: 10px; }
+
+.diseñoPlatos img {
+  width: 150px;
+  height: 150px; }
+
+.diseñoPlatos article {
+  border: solid 1px black;
+  text-align: center;
+  padding: 5px;
+  width: 220px;
+  height: 250px; }
+
+/*Fin Seccion Salado*/
+/*Seccion EVENTOS*/
+.bodyEventos {
+  background-color: #FEC89A; }
+
+.eventosPrinc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 10px;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.eventosPrinc img {
+  width: 180px;
+  height: 70px; }
+
+.diseñoEventosTitulo {
+  text-align: center;
+  color: #7E7F9A;
+  background-color: #FFD7BA;
+  font-size: 25px;
+  margin-bottom: 50px; }
+
+.eventosPrinc p {
+  font-size: 12px; }
+
+/*Fin Seccion EVENTOS*/
+/*Diseño Footer*/
+.footer__info {
+  color: yellow;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Jomhuria';
+  margin-top: 50px; }
+
+.footer__info li {
+  display: inline;
+  padding: 1px;
+  color: #7E7F9A;
+  background-color: #FFD7BA; }
+
+.footer__info ul li {
+  display: inline;
+  padding-left: 3px;
+  padding-right: 3px; }
+
+.footer__info ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black; }
+
+/*Fin Diseño Footer*/
+/*Diseño all imagenes*/
+.imgPrincipal {
+  display: flex;
+  margin-left: 2px;
+  width: 50px;
+  height: 50px; }
+
+.imgChango2 {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 110px;
+  height: 55px; }
+
+.imgMain {
+  display: block;
+  margin: auto; }
+
+.logoig {
+  width: 30px;
+  height: 30px; }
+
+/*FIN Diseño all imagenes*/
+/* MEDIAS QUERIES */
+/* Vista Celular */
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  * {
+    margin: 0px;
+    padding: 0px; }
+  .menuPrincipal ul {
+    font-size: small;
+    margin-left: 40px;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex; }
+  .imgChango2 {
+    visibility: hidden;
+    display: none; }
+  .imgPrincipal {
+    visibility: hidden;
+    display: none; }
+  .menuPrincipal {
+    font-size: small; }
+  #titulo__principal--diseño {
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 20px; }
+  .footer__info {
+    margin-top: 20px; }
+  main h5 {
+    font-size: 5px; } }
+
+/* VISTA TABLET */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  * {
+    margin: 0px;
+    padding: 0px; }
+  #titulo__principal--diseño {
+    font-size: larger;
+    margin-bottom: 15px; }
+  .menuPrincipal {
+    margin-top: 15px;
+    font-size: large; }
+  .imgChango2 {
+    justify-self: center;
+    width: 50px;
+    height: 50px; }
+  .imgPrincipal {
+    width: 50px;
+    height: 50px;
+    justify-self: center; }
+  .imgMain {
+    margin-bottom: 10px; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: auto;
+  height: auto;
+  background-color: #FEC89A; }
+
+body a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  list-style-type: none; }
+
+.container {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center; }
